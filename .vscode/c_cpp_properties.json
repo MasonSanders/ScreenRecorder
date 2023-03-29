@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/gtkmm-3.0",
+                "/usr/include/gtkmm-3.0/gtkmm",
+                "/usr/include/glibmm-2.4",
+                "/usr/include/sigc++-2.0",
+                "/usr/include/glibmm-2.4/glibmm",
+                "/usr/lib/glibmm-2.4/include",
+                "/usr/lib/gtkmm-3.0/include",
+                "/usr/include/glib-2.0",
+                "/usr/include/glib-2.0/glib",
+                "/usr/include/sigc++-2.0/sigc++",
+                "/usr/lib/sigc++-2.0/include",
+                "/usr/include/giomm-2.4",
+                "/usr/include/giomm-2.4/giomm",
+                "/usr/lib/giomm-2.4/include",
+                "/usr/include/gdkmm-3.0",
+                "/usr/include/gdkmm-3.0/gdkmm",
+                "/usr/lib/gdkmm-3.0/include",
+                "/usr/include/pangomm-1.4",
+                "/usr/include/pangomm-1.4/pangomm",
+                "/usr/lib/pangomm-1.4/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64",
+            "compilerArgs": []
+        }
+    ],
+    "version": 4
+}
