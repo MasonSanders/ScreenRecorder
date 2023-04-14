@@ -9,8 +9,7 @@ class Recording_State : public Application_State
 public:
     Recording_State();
     ~Recording_State();
-
-    void handle(Recorder& recorder, Main_Window& main_window) override;
+    void handle(Recorder& recorder, Main_Window& main_window, Settings_Window& settings_window) override;
 
 private:
     Abstract_Recorder_Btn_Factory* btn_factory;

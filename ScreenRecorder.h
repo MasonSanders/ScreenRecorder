@@ -3,6 +3,7 @@
 
 #include <gtkmm.h>
 #include <vector>
+#include <string>
 #include "MainWindow.h"
 #include "SettingsWindow.h"
 #include "Observer.h"
@@ -20,7 +21,7 @@ public:
 
     void open_settings_win();
 
-    void update() override;
+    void update(int s) override;
 
     Application_State* get_state();
 

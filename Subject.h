@@ -9,7 +9,7 @@ public:
     virtual ~Subject() = 0;
     virtual void attach(Observer& o) = 0;
     virtual void detach(Observer& o) = 0;
-    virtual void notify_observers() = 0;
+    virtual void notify_observers(int s) = 0;
 };
 
 #endif
