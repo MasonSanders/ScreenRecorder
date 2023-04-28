@@ -1,5 +1,4 @@
 #include "Subject.h"
 
-Subject::Subject() {}
-
+// Destructor
 Subject::~Subject() {}

@@ -13,28 +13,34 @@
 class Screen_Recorder : public Gtk::Application, public Observer 
 {
 public:
+    // Constructor
     Screen_Recorder();
 
+    // Destuctor
     ~Screen_Recorder();
 
-    int run() override;
+    // on_activate gets called from gtk::Application::run 
+    void on_activate() override;
 
-    void open_settings_win();
-
+    // update
     void update(int s) override;
 
-    Application_State* get_state();
+protected:
+    // on_main_close reponsible for closing the application when the main_window is hidden
+    void on_main_close();
 
 private:
+    // main window of the application
     Main_Window* main_window;
 
+    // settings window of the application
     Settings_Window * settings_window;
 
+    // the recorder model
     Recorder* recorder;
 
+    // states vector responsible for holding states
     std::vector<Application_State*> states;
-
-    int cur_state;
 };
 
 #endif

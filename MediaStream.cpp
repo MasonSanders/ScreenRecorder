@@ -1,5 +1,4 @@
 #include "MediaStream.h"
 
-Media_Stream::Media_Stream() {}
-
+// destructor
 Media_Stream::~Media_Stream() {}

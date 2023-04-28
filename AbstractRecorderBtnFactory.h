@@ -7,9 +7,12 @@
 class Abstract_Recorder_Btn_Factory
 {
 public:
+    // destructor
     virtual ~Abstract_Recorder_Btn_Factory() = 0;
-    virtual std::vector<Gtk::Button>& create_recording_btns() = 0;
-    virtual std::vector<Gtk::Button>& create_not_recording_btns() = 0;
+    // create recording buttons
+    virtual std::vector<Gtk::Button*>& create_recording_btns() = 0;
+    // create not recording buttons
+    virtual std::vector<Gtk::Button*>& create_not_recording_btns() = 0;
 };
 
 #endif

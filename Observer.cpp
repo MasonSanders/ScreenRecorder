@@ -1,5 +1,4 @@
 #include "Observer.h"
 
-Observer::Observer() {}
-
+// destructor
 Observer::~Observer() {}

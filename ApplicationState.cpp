@@ -1,6 +1,4 @@
 #include "ApplicationState.h"
 
-
-Application_State::Application_State() {}
-
+// destructor
 Application_State::~Application_State() {}

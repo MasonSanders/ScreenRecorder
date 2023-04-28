@@ -7,9 +7,12 @@
 class Not_Recording_State : public Application_State
 {
 public:
+    // constructor
     Not_Recording_State();
+    // destructor
     ~Not_Recording_State();
 
+    // handle responsible for setting the state
     void handle(Recorder& recorder, Main_Window& main_window, Settings_Window& settings_window) override;
 
 private:

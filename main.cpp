@@ -2,7 +2,8 @@
 
 int main(int argc, char* argv[])
 {
-    auto app = Glib::RefPtr<ScreenRecorder>(new ScreenRecorder());
+    // main returns the exit state of the application.
+    auto app = Glib::RefPtr<Screen_Recorder>(new Screen_Recorder());
 
-    return app->run();
+    return app->run(argc, argv);
 }

@@ -1,5 +1,4 @@
 #include "AbstractRecorderBtnFactory.h"
 
-Abstract_Recorder_Btn_Factory::Abstract_Recorder_Btn_Factory() {}
-
+// destructor
 Abstract_Recorder_Btn_Factory::~Abstract_Recorder_Btn_Factory() {}

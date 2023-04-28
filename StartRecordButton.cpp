@@ -6,4 +6,4 @@ Start_Record_Button::Start_Record_Button()
     set_label("Start Recording");
 }
 
-Start_Record_Button::~Start_Record_Butotn() {}
+Start_Record_Button::~Start_Record_Button() {}

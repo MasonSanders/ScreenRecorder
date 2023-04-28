@@ -8,6 +8,6 @@ class Recorder_Button : public Gtk::Button
 public:
     Recorder_Button();
     virtual ~Recorder_Button() = 0;
-}
+};
 
 #endif

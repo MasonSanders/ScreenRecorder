@@ -11,11 +11,13 @@ public:
     Video_Stream();
     // destructor
     ~Video_Stream();
-    // open input
+    // open input responsible for connecting the screen with ffmpeg
     void open_input(std::string framerate) override;
-    void capture_frame() override;
+    // capture frame repsonsible for writing frames to the output file
+    void capture_frame(std::string framerate) override;
+    // create_outfile responsible for creating a file that can be written to
     void create_outfile(std::string bitrate, std::string framerate, std::string format) override;
-
+    // interrupt stream responsible for setting variable to interrupt a thread
     void interrupt_stream() override;
 
 private:
